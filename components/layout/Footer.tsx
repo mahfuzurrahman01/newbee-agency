@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 
 const links = {
   Services: ["UI/UX Design", "Web Development", "App Development", "Automation (n8n)", "Webflow", "Framer"],

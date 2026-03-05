@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 
 export default function CustomCursor() {
@@ -30,7 +30,6 @@ export default function CustomCursor() {
 
     const handleEnterInteractive = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
-      const magnetic = target.closest("[data-magnetic]");
       const cursorLabel = target.closest("[data-cursor-label]") as HTMLElement;
       setIsHovering(true);
       setLabel(cursorLabel?.dataset.cursorLabel ?? "");

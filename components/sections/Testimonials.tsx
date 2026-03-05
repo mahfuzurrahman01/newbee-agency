@@ -101,7 +101,7 @@ export default function Testimonials() {
 
                 {/* Quote mark */}
                 <div className="font-display font-black text-8xl text-white/5 leading-none mb-4 -mt-4">
-                  "
+                  &ldquo;
                 </div>
 
                 <StarRating />
